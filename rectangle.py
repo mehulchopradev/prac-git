@@ -1,4 +1,4 @@
-def perimeter(length, breadth=2):
+def perimeter_rectangle(length, breadth=2):
   return 2 * (length + breadth)
 
 def area(length, breadth):
@@ -7,5 +7,5 @@ def area(length, breadth):
 l = input('enter length: ')
 b = input('enter breadth: ')
 
-print(perimeter(l, b))
+print(perimeter_rectangle(l, b))
 print(area(l, b))
