@@ -4,3 +4,9 @@ def perimeter(length, breadth):
 
 def area(length, breadth):
   return length * breadth
+
+l = input('enter length: ')
+b = input('enter breadth: ')
+
+print(perimeter(l, b))
+print(area(l, b))
