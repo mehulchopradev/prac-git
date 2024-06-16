@@ -1,6 +1,5 @@
-def perimeter_rectangle(length, breadth):
-  # deliberately adding this wrong formula
-  return 3 * (length + breadth)
+def perimeter_rectangle(length, breadth=2):
+  return 2 * (length + breadth)
 
 def area(length, breadth):
   return length * breadth
